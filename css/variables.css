@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+    /* ## Colors */
+
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+    /* ## Typography */
+
+    --font-size-p: 14px;
+
+    --font-weights-l: 400;
+    --font-weights-x: 600;
+    --font-weights-xl: 700;
+
+    --font-family-Inter: "Inter", inter;
+
+    /*  ------------------------------- */
+
+}

@@ -1,0 +1,148 @@
+body {
+  background-color: var(--stone-100);
+}
+
+p {
+  display: inline-block;
+}
+
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-receta {
+  background-color: var(--white);
+  width: 70vh;
+  padding: 25px;
+  border-radius: 0.5em;
+  margin: 10vh;
+}
+
+img {
+  border-radius: 0.5em;
+}
+
+.titulo-receta {
+  font-family: var(--font-family-young-serif);
+  font-size: 25px;
+}
+
+.introduccion-receta {
+  font-family: var(--font-family-outfit);
+  font-size: 11px;
+  color: var(--stone-600);
+}
+
+.container-tiempo-preparacion {
+  margin: 5% 0;
+  background-color: var(--rose-50);
+  padding: 5px;
+  border-radius: 0.5em;
+}
+
+.contenedor-secundario {
+  margin: 0 0 0 3%;
+}
+
+.titulo-preparacion {
+  color: var(--rose-800);
+  font-weight: bold;
+  font-family: var(--font-family-outfit);
+}
+
+.item-time-preparacion {
+  color: var(--rose-800);
+  font-family: var(--font-family-outfit);
+}
+
+.item-time-preparacion-titulo,
+.item-time-instruccion-titulo {
+  color: var(--stone-600);
+  font-weight: bold;
+}
+
+.item-time-preparacion-descripcion {
+  color: var(--stone-600);
+}
+
+.titulo-ingredientes,
+.titulo-instrucciones,
+.titulo-nutricion {
+  color: var(--brown-800);
+  font-size: 25px;
+  font-family: var(--font-family-young-serif);
+}
+
+.item-time-ingredientes {
+  color: var(--brown-800);
+  font-family: var(--font-family-outfit);
+}
+
+.item-time-ingredientes-titulo {
+  color: var(--stone-600);
+}
+
+.item-time-instrucciones {
+  color: var(--brown-800);
+  font-family: var(--font-family-outfit);
+  font-weight: bold;
+}
+
+.item-time-instrucciones-descripcion {
+  color: var(--stone-600);
+  font-weight: normal;
+
+}
+
+.nutricion-introduccion {
+  font-family: var(--font-family-outfit);
+  font-size: 12px;
+  color: var(--stone-600);
+}
+
+.container-list-nutrition-items {
+  display: flex;
+}
+
+.container-item-title,
+.container-item-description {
+  width: 50%;
+}
+
+.container-item-title {
+  color: var(--stone-600);
+  font-family: var(--font-family-outfit);
+}
+
+.container-item-description {
+  color: var(--brown-800);
+  font-weight: bold;
+  font-family: var(--font-family-outfit);
+}
+
+footer {
+  margin-top: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MOBILE */
+
+/* - Mobile: 375px */
+@media (max-width: 375px) {
+
+  .contenedor-receta {
+    margin: 0;
+  }
+
+
+}
